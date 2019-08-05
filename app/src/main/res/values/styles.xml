@@ -1,0 +1,49 @@
+<resources>
+
+    <style name="ThemeBase" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:colorControlHighlight">@color/colorAccentCC</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar"/>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="ThemeBase"/>
+
+    <style name="Transparent" parent="ThemeBase"/>
+
+    <style name="AppTheme.Detail" parent="ThemeBase"/>
+
+    <style name="SplashThemeBase" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_drawable</item>
+    </style>
+
+    <style name="SplashTheme" parent="SplashThemeBase"/>
+
+    <style name="ScreenTitleTextStyle">
+        <item name="android:textColor">@color/highlight_color</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextProfileHeading">
+        <item name="android:textSize">@dimen/font_extra_small</item>
+        <item name="android:textColor">@color/highlight_color</item>
+        <item name="android:lineSpacingMultiplier">1.33</item>
+        <item name="android:fontFamily">@font/graphik_regular</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/spacing_normal</item>
+    </style>
+
+</resources>
+

@@ -1,0 +1,2 @@
+include ':app', ':recycler'
+project(':recycler').projectDir = new File(settingsDir, "recycler")
